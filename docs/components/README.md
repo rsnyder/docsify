@@ -1,3 +1,3 @@
 # Components
 
-[image](image.md)
+[image](/docsify/docs/components/image)
