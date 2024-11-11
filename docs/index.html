@@ -13,7 +13,8 @@
     <div id="app"></div>
     <script>
       window.$docsify = {
-        basepath: 'https://raw.githubusercontent.com/rsnyder/docsify/main/docs',
+        // basepath: 'https://raw.githubusercontent.com/rsnyder/docsify/main/docs',
+        alias: { '.*/_sidebar.md': 'sidebar.md' },
         loadNavbar: false,
         loadSidebar: true,
         routerMode: 'history', // hash or history
