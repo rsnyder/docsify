@@ -20,7 +20,7 @@
       let referrer = document.referrer ? new URL(document.referrer) : null
       if (referrer?.host === 'github.com') {
         console.log('Referrer:', referrer);
-        [acct, repo, branch, ...path] = referrer.pathname.split('/').filter(pe => pe && pe !== 'blob' && pe !== 'tree')
+        [acct, repo, ...path] = location.pathname.split('/').filter(pe => pe).slice(location.hostname.indexOf('github.io') > 0 ? 1 : 0)
       } else {
         [acct, repo, ...path] = location.pathname.split('/').filter(pe => pe)
         branch = new URL(location.href).searchParams.get('ref') || 'main'
