@@ -1,3 +1,3 @@
 # Components
 
-[image](/image)
+[image](/components/image)
