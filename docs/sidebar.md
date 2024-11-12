@@ -1,4 +1,4 @@
 - Sidebar
-  - [components](/components/)
-    - [image](/components/image)
+  - [components](/docs/components/)
+    - [image](/docs/components/image)
 
