@@ -25,7 +25,10 @@
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <script>
-      window.history.replaceState({}, null, `${location.origin}${location.pathname}`)      
+      setTimeout(() => {
+        console.log(`set browser URL')
+        window.history.replaceState({}, null, `${location.origin}${location.pathname}`)
+      }, 100)
     </script>
   </body>
 </html>
