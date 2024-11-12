@@ -1,6 +1,3 @@
-
-@import url(https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.15.1/cdn/themes/light.css);
-
 html {
   box-sizing: border-box;
 }
@@ -21,34 +18,14 @@ body {
   line-height: var(--sl-line-height-normal);
 }
 
-body {
-  font-family: Roboto, sans-serif;
-  font-size: 90%;
-  margin: 0;
-  background-color: white;
-}
-
-/* Mobile Devices */
-@media (max-width: 480px) {
-}
-
-/* Larger Devices */
-@media (min-width: 481px) {
-  body {
-    margin:0 2rem
-  }
-}
-
 /*
 body.close .content {
   transform: reset;
 }
 */
 
-a, 
-.markdown-section a {
+a {
   color: var(--sl-color-primary-600);
-  font-weight: unset;
 }
 
 a:hover {
