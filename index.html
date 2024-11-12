@@ -10,7 +10,6 @@
   <body>
     <div id="app"></div>
     <script>
-      window.history.replaceState({}, null, `${location.origin}${location.pathname}`)
       window.$docsify = {
         homepage: '/docs/README.md',
         alias: { '.*/_sidebar.md': '/docs/sidebar.md' },
@@ -25,5 +24,8 @@
 
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script>
+      window.history.replaceState({}, null, `${location.origin}${location.pathname}`)      
+    </script>
   </body>
 </html>
